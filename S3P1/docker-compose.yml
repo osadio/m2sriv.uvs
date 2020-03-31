@@ -6,7 +6,7 @@ services:
     volumes:
       - /mnt/minio1/data1:/data1
       - /mnt/minio1/data2:/data2
-      - /home/ghost/.minio/minio1:/root/.minio
+      - /home/username/.minio/minio1:/root/.minio
     ports:
       - "9001:443"
     environment:
@@ -24,7 +24,7 @@ services:
     volumes:
       - /mnt/minio2/data1:/data1
       - /mnt/minio2/data2:/data2
-      - /home/ghost/.minio/minio2:/root/.minio
+      - /home/username/.minio/minio2:/root/.minio
     ports:
       - "9002:443"
     environment:
@@ -42,7 +42,7 @@ services:
     volumes:
       - /mnt/minio3/data1:/data1
       - /mnt/minio3/data2:/data2
-      - /home/ghost/.minio/minio3:/root/.minio
+      - /home/username/.minio/minio3:/root/.minio
     ports:
       - "9003:443"
     environment:
@@ -60,7 +60,7 @@ services:
     volumes:
       - /mnt/minio4/data1:/data1
       - /mnt/minio4/data2:/data2
-      - /home/ghost/.minio/minio4:/root/.minio
+      - /home/username/.minio/minio4:/root/.minio
     ports:
       - "9004:443"
     environment:
