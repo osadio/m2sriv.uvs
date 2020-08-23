@@ -4,7 +4,7 @@
     {
       "Effect": "Allow",
       "Action": "s3:*",
-      "Resource": "*"
+      "Resource": "arn:aws:s3:::*"
     }
   ]
 }
